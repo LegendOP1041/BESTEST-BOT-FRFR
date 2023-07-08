@@ -3,7 +3,7 @@ const { AoiClient, LoadCommands } = require("aoi.js");
 
 const bot = new AoiClient({
     token: BOT_TOKEN,
-    prefix: "!",
+    prefix: ";",
     intents: ["MessageContent", "Guilds", "GuildMessages"],
     events: ["onMessage"],
     database: {
