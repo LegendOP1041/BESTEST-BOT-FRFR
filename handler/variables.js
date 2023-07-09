@@ -9,6 +9,7 @@ module.exports = (bot) => {
     def: 15,
     stamina: 20,
     spd: 10,
-    int: 80 
+    int: 80,
+    mcount: 0 //ye message count ka variable hai, respawn command k liye
   });
 }
