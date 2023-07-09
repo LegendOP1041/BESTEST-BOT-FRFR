@@ -9,6 +9,6 @@ module.exports = (bot) => {
     def: 15,
     stamina: 20,
     spd: 10,
-    int: 80,  
+    int: 80 
   });
 }
