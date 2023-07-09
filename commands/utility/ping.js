@@ -1,4 +1,7 @@
 module.exports = ({
   name: "ping",
-  code: `Pong! \`$pingms\``
+  code:`
+  $description[Pong! $pingms]
+  $color[#5cbeff]
+  `
 });

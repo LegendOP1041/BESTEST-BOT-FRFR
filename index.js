@@ -1,3 +1,4 @@
+//DON'T TOUCH IT
 const BOT_TOKEN = process.env['BOT_TOKEN'];
 const { AoiClient, LoadCommands } = require("aoi.js");
 
@@ -16,8 +17,13 @@ const bot = new AoiClient({
         }
     }
 });
-
+//DON'T TOUCH THE ABOVE CODE!!!
+/*
+Below code is used to have a separate place to add variables, go to /handler/variables.js
+*/
 require('./handler/variables.js')(bot);
-
+/*
+Below code is used to load commands
+*/
 const loader = new LoadCommands(bot);
 loader.load(bot.cmd, "./commands/");

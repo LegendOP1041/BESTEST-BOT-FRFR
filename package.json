@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "EDDY",
   "license": "ISC",
   "dependencies": {
     "@akarui/aoi.db": "^1.0.0",
