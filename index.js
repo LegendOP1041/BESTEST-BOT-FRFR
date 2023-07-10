@@ -29,3 +29,10 @@ Below code is used to load commands
 */
 const loader = new LoadCommands(bot);
 loader.load(bot.cmd, "./commands/");
+
+bot.status({
+  text: "You all",
+  type: "WATCHING",
+  time: 12,
+  status: "idle"
+})

@@ -11,6 +11,7 @@ module.exports = (bot) => {
     spd: 10,
     int: 80, 
     mcount: 0, //ye message count ka variable hai, respawn command k liye   
-    rchannel: ""
+    rchannel: "",
+    fight: 0
   })
 }
