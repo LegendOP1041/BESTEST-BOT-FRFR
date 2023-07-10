@@ -1,4 +1,6 @@
-//DON'T TOUCH IT
+/*DON'T TOUCH IT
+Below code is used to keep the repl alive, don't touch it neither keep_alive.js*/
+const keep_alive = require('./keep_alive.js')
 const BOT_TOKEN = process.env['BOT_TOKEN'];
 const { AoiClient, LoadCommands } = require("aoi.js");
 

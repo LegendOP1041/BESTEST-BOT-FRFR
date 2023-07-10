@@ -1,7 +1,9 @@
 //mcount is a variable which means message count
 module.exports = ({
   name: "$alwaysExecute",
-  code: `A new quest is available!
-$setGlobalUserVar[mcount;0;$authorID]
-$onlyIf[$getGlobalUserVar[mcount]>=$random[15;20];$setGlobalUserVar[mcount;$sum[$getGlobalUserVar[mcount];1];$authorID]`
+  code: `
+$channelSendMessage[$if[$channelExists[$getGuildVar[rchannel]]==true;$getGuildVar[rchannel];$channelID];A new quest is available!]
+
+$setGuildVar[mcount;0;$guildID]
+$onlyIf[$getGuildVar[mcount]>=$random[15;20];$setGuildVar[mcount;$sum[$getGuildVar[mcount];1];$guildID]`
 });
